@@ -56,3 +56,7 @@ main img {
 .enabled {
   cursor: pointer;
 }
+
+footer {
+  text-align: center;
+}
