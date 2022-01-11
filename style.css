@@ -33,7 +33,16 @@ main img {
   display: flex;
 }
 
+#container {
+  display: flex;
+}
+
+
 #radio-container {
   display: flex;
   flex-direction: column;
+}
+
+#checkbox-container {
+  display: flex;
 }
