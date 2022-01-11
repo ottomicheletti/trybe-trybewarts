@@ -11,19 +11,20 @@ btnLogin.addEventListener('click', () => {
   }
 });
 
+// Requisito 18
 const agreement = document.querySelector('#agreement');
 const btnSubmit = document.getElementById('submit-btn');
 
 function check() {
-  if (agreement.checked !== true){
+  if (agreement.checked !== true) {
     btnSubmit.disabled = true;
-    btnSubmit.classList.remove('enabled');
-    btnSubmit.classList.add('disabled');
+    btnSubmit.style.cursor = 'not-allowed';
+    btnSubmit.style.backgroundColor = 'rgb(60, 64, 74)';
   } else {
     btnSubmit.disabled = false;
-    btnSubmit.classList.remove('disabled');
-    btnLogin.classList.add('enabled');
+    btnSubmit.style.cursor = 'pointer';
+    btnSubmit.style.backgroundColor = 'rgb(78, 44, 131)';
   }
 }
 
-agreement.addEventListener('change', check)
+agreement.addEventListener('change', check);

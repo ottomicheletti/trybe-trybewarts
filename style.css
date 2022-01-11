@@ -103,14 +103,6 @@ main img {
   padding: 4px;
 }
 
-.disabled {
-  cursor: not-allowed;
-  
-}
-
-.enabled {
-  cursor: pointer;
-}
 
 hr {
   margin: 8px;
@@ -131,7 +123,7 @@ hr {
   border: none;
   margin: 0.5em auto;
   border-radius: 4px;
-  background-color: rgb(78, 44, 131);
+  background-color: rgb(60, 64, 74);
   color: rgb(255, 255, 255);
 }
 
