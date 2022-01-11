@@ -9,3 +9,7 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
+.trybewarts-login {
+  display: flex;
+}
