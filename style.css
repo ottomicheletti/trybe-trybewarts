@@ -13,3 +13,18 @@ header {
 .trybewarts-login {
   display: flex;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main img {
+  height: 500px;
+}
+
+#evaluation-form {
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+}
