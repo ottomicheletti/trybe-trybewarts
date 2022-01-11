@@ -32,3 +32,8 @@ main img {
 .sub-container {
   display: flex;
 }
+
+#radio-container {
+  display: flex;
+  flex-direction: column;
+}
