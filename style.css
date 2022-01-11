@@ -43,6 +43,7 @@ main img {
   flex-direction: column;
 }
 
-#checkbox-container {
+.sub-checkbox {
   display: flex;
+  justify-content: space-between;
 }
