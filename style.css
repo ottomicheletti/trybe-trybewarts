@@ -47,3 +47,12 @@ main img {
   display: flex;
   justify-content: space-between;
 }
+
+.disabled {
+  cursor: not-allowed;
+  
+}
+
+.enabled {
+  cursor: pointer;
+}

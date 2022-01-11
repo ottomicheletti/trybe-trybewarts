@@ -10,3 +10,20 @@ btnLogin.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+const agreement = document.querySelector('#agreement');
+const btnSubmit = document.getElementById('submit-btn');
+
+function check() {
+  if (agreement.checked !== true){
+    btnSubmit.disabled = true;
+    btnSubmit.classList.remove('enabled');
+    btnSubmit.classList.add('disabled');
+  } else {
+    btnSubmit.disabled = false;
+    btnSubmit.classList.remove('disabled');
+    btnLogin.classList.add('enabled');
+  }
+}
+
+agreement.addEventListener('change', check)
