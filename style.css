@@ -28,3 +28,7 @@ main img {
   display: flex;
   flex-direction: column;
 }
+
+.sub-container {
+  display: flex;
+}
