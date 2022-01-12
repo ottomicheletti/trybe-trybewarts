@@ -28,3 +28,5 @@ function check() {
 }
 
 agreement.addEventListener('change', check);
+
+// Requisito 20
