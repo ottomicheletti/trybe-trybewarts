@@ -30,3 +30,15 @@ function check() {
 agreement.addEventListener('change', check);
 
 // Requisito 20
+const text = document.getElementById('textarea');
+const counter = document.querySelector('#counter');
+
+function caracteres(event) {
+  if (text.value.length > 0 && event.key !== 'backspace') {
+    counter.innerHTML = 500 - text.value.length;
+  } else {
+    counter.innerHTML = 500;
+  }
+}
+
+text.addEventListener('keyup', caracteres);

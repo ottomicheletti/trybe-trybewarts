@@ -88,6 +88,7 @@ main img {
 
 #container {
   display: flex;
+  justify-content: space-around;
   margin: 2px;
 }
 
@@ -133,4 +134,20 @@ footer {
   position: fixed;
   bottom: 0%;
   width: 100%;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+}
+
+#text textarea {
+  resize: none;
+}
+
+#counter {
+  z-index: 1;
+  text-align: right;
+  margin-top: -20px;
+  margin-right: 5px;
 }
