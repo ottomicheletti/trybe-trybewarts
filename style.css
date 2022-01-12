@@ -46,6 +46,7 @@ header form button {
 }
 
 main {
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
