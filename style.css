@@ -20,7 +20,7 @@ header img {
 }
 
 header h1 {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 header form input {
@@ -38,7 +38,7 @@ header form button {
   margin: auto 8px;
   border-radius: 4px;
   background-color: rgb(78, 44, 131);
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .trybewarts-login {
@@ -91,7 +91,6 @@ main img {
   margin: 2px;
 }
 
-
 #radio-container {
   display: flex;
   flex-direction: column;
@@ -102,7 +101,6 @@ main img {
   justify-content: space-between;
   padding: 4px;
 }
-
 
 hr {
   margin: 8px;
@@ -124,16 +122,15 @@ hr {
   margin: 0.5em auto;
   border-radius: 4px;
   background-color: rgb(60, 64, 74);
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 footer {
   padding: 8px;
   text-align: center;
   background-color: rgb(60, 64, 74);
-  color: rgb(255, 255, 255);
+  color: white;
   position: fixed;
   bottom: 0%;
   width: 100%;
 }
-
